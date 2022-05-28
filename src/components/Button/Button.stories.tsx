@@ -8,6 +8,14 @@ export default {
 
   argTypes: {
     backgroundColor: { control: "color" },
+    variant: {
+      options: ["primary", "secondary", "inverse"],
+      control: { type: "radio" },
+    },
+    size: {
+      options: ["sm", "md", "lg"],
+      control: { type: "radio" },
+    },
   },
 } as ComponentMeta<typeof Button>;
 
@@ -22,17 +30,12 @@ Primary.args = {
 
 export const Secondary = Template.bind({});
 Secondary.args = {
+  variant: "secondary",
   label: "Button",
 };
 
-export const Large = Template.bind({});
-Large.args = {
-  size: "lg",
-  label: "Button",
-};
-
-export const Small = Template.bind({});
-Small.args = {
-  size: "sm",
+export const Inverse = Template.bind({});
+Inverse.args = {
+  variant: "inverse",
   label: "Button",
 };

@@ -27,12 +27,13 @@ export const Button = ({
   const variantClasses = {
     [styles["-button--primary"]]: variant === "primary",
     [styles["-button--secondary"]]: variant === "secondary",
+    [styles["-button--inverse"]]: variant === "inverse",
   };
 
   return (
     <button
       type="button"
-      className={cn(className, variantClasses, sizeClasses)}
+      className={cn(className, styles["-button"], variantClasses, sizeClasses)}
       style={{ backgroundColor }}
       {...props}
     >
