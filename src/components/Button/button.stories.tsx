@@ -1,6 +1,6 @@
-import { ComponentStory, ComponentMeta } from "@storybook/react";
+import { ComponentStory, ComponentMeta } from "@storybook/react"
 
-import { Button } from "./Button";
+import { Button } from "./button"
 
 export default {
   title: "Example/Button",
@@ -17,25 +17,25 @@ export default {
       control: { type: "radio" },
     },
   },
-} as ComponentMeta<typeof Button>;
+} as ComponentMeta<typeof Button>
 
-const Template: ComponentStory<typeof Button> = (args) => <Button {...args} />;
+const Template: ComponentStory<typeof Button> = (args) => <Button {...args} />
 
-export const Primary = Template.bind({});
+export const Primary = Template.bind({})
 
 Primary.args = {
   variant: "primary",
   label: "Button",
-};
+}
 
-export const Secondary = Template.bind({});
+export const Secondary = Template.bind({})
 Secondary.args = {
   variant: "secondary",
   label: "Button",
-};
+}
 
-export const Inverse = Template.bind({});
+export const Inverse = Template.bind({})
 Inverse.args = {
   variant: "inverse",
   label: "Button",
-};
+}
