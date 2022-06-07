@@ -45,7 +45,7 @@
 
 ## :dart: About
 
-Project contains the PicPay company home, for the purpose of studying grid and flex in css and for using React Js
+Project used to create components and maybe transform into a design system, still under development
 
 ## :rocket: Technologies
 
