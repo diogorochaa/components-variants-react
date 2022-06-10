@@ -1,6 +1,6 @@
 import { ComponentStory, ComponentMeta } from "@storybook/react"
 
-import { Header } from "./Header"
+import { Header } from "./header"
 
 export default {
 	title: "Example/Header",
@@ -10,7 +10,9 @@ export default {
 	},
 } as ComponentMeta<typeof Header>
 
-const Template: ComponentStory<typeof Header> = () => <Header />
+const Template: ComponentStory<typeof Header> = (args) => <Header {...args} />
 
 export const LoggedOut = Template.bind({})
-LoggedOut.args = {}
+LoggedOut.args = {
+	label: "Header",
+}

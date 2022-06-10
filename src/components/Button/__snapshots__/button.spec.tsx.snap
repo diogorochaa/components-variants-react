@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<button
+  className="-button -button--primary -button--medium"
+  style={
+    Object {
+      "backgroundColor": undefined,
+    }
+  }
+  type="button"
+>
+  Button
+</button>
+`;
