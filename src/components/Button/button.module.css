@@ -1,46 +1,46 @@
 :root {
-  --color-default: #fff;
-  --color-inverse: #0c6cfd;
+	--color-default: #fff;
+	--color-inverse: #0c6cfd;
 }
 .-button {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 700;
-  border: 1px solid #303030;
-  border-radius: 6px;
-  cursor: pointer;
-  display: inline-block;
-  line-height: 1;
+	font-family: "Roboto", sans-serif;
+	font-weight: 700;
+	border: 1px solid #303030;
+	border-radius: 3em;
+	cursor: pointer;
+	display: inline-block;
+	line-height: 1;
 }
 .-button--primary {
-  background-color: #0c6cfd;
-  color: var(--color-default);
+	background-color: #7b61ff;
+	color: var(--color-default);
 }
 .-button--primary:hover {
-  background-color: #3685fa;
+	background-color: #5f56b4;
 }
 .-button--secondary {
-  background-color: #333131;
-  color: var(--color-default);
+	background-color: #030c81;
+	color: var(--color-default);
 }
 .-button--secondary:hover {
-  background-color: #1f1f1f;
+	background-color: #00014e;
 }
 .-button--inverse {
-  background-color: #090909;
-  color: var(--color-inverse);
+	background-color: #ffffff;
+	color: #030c81;
 }
 .-button--inverse:hover {
-  background-color: #1f1f1f;
+	background-color: #faf6f6;
 }
 .-button--small {
-  font-size: 12px;
-  padding: 8px 12px;
+	font-size: 12px;
+	padding: 8px 12px;
 }
 .-button--medium {
-  font-size: 14px;
-  padding: 8px 50px;
+	font-size: 14px;
+	padding: 8px 50px;
 }
 .-button--large {
-  font-size: 16px;
-  padding: 8px 126px;
+	font-size: 16px;
+	padding: 8px 126px;
 }

@@ -1,0 +1,41 @@
+.label-container {
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	flex-direction: column;
+}
+.label {
+	font-family: "Roboto", sans-serif;
+	color: #303030;
+	font-size: 1.2rem;
+	margin-bottom: 0.5rem;
+	padding: 0 0.5rem;
+}
+
+.-input {
+	border: 1px solid #303030;
+}
+.-input--error {
+	border-color: #f80d05c7;
+}
+
+.-input--success {
+	border-color: #14e051;
+}
+
+.-input--default {
+	border-color: #090909;
+}
+
+.-input--small {
+	font-size: 12px;
+	padding: 8px 12px;
+}
+.-input--medium {
+	font-size: 14px;
+	padding: 8px 24px;
+}
+.-input--large {
+	font-size: 16px;
+	padding: 8px 32px;
+}
